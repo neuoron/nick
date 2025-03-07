@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Родин Никита">
+    <meta name="description" content="О проекте">
+    <title>О проекте</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('photo/33имба.jpg') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            color: #f0f0f0;
+        }
+        nav {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #f0f0f0;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #ff4500;
+        }
+        .container {
+            max-width: 800px;
+            margin: 100px auto;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h1 {
+            text-align: center;
+            color: #ff4500;
+        }
+        .back-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background: #ff4500;
+            color: white;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .back-button:hover {
+            background: #e03e00;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">О проекте</a></li>
+            <li><a href="clubs.html">Клубы</a></li>
+            <li><a href="gallery.html">Галерея</a></li>
+            <li><a href="symbols.html">Символика</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>О проекте</h1>
+        <p>Создание проекта было собственноручным, без вспомогательных средств в виде ChatGPT и т.д. 
+           Дабы страница не казалась пустой, ниже указаны контакты:</p>
+        <p><strong>Номер телефона:</strong> +77076126097</p>
+        <p><strong>Instagram:</strong> rjustnick</p>
+        <p><strong>Telegram:</strong> neuor0n</p>
+        <p><strong>Steam:</strong> @rjustnick</p>
+        <button class="back-button" onclick="history.back()">Назад</button>
+    </div>
+</body>
+</html>
